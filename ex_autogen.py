@@ -5,9 +5,9 @@ sample_num=100
 
 data=pd.DataFrame(columns=['Age','Chest pain', 'Fever', 'Persistent cough', 'Fatigue',
                             'Night sweats','Loss of appetite','Weight loss',
-                            'Shortness of breath', 'Diagnosis'])
+                            'Shortness of breath', 'Diagnosis'])#excel columns
 
-while i<=sample_num:
+while i<=sample_num:#columns datas generation
     for num in range(sample_num):
         age=random.randint(18, 70)
         chest_pain=random.choice(['Yes', 'No'])
